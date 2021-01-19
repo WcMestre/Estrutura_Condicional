@@ -19,7 +19,7 @@ namespace Estrutura_Condicional
             SegNumero = int.Parse(Console.ReadLine());
 
             Console.Write("\nEscolha a operação desejada");
-            Console.Write("\n 1- Soma");
+            Console.Write("\n1- Soma");
             Console.Write("\n2 - Subtração\n");
             op = int.Parse(Console.ReadLine());
 
