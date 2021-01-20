@@ -18,11 +18,12 @@ namespace Estrutura_Condicional
             Console.Write("Digite o Segundo número: ");
             SegNumero = int.Parse(Console.ReadLine());
 
+            Console.Write("\n_____________________________________________");
             Console.Write("\nEscolha a operação desejada");
             Console.Write("\n1- Soma");
-            Console.Write("\n2 - Subtração\n");
+            Console.Write("\n2 - Subtração");
+            Console.Write("\n_____________________________________________\n");
             op = int.Parse(Console.ReadLine());
-
 
             if (op == 1)
             {
@@ -36,14 +37,13 @@ namespace Estrutura_Condicional
                     Console.WriteLine("\nO resultado é: " + Resultado);
                 }
 
-                    else 
+                    else
                     {
                         Console.WriteLine("\nOperação inválida");
                     }
 
             Console.Write("\nPressione qualquer tecla para continuar . . . ");
             Console.ReadKey(true);
-
         }
     }
 }
